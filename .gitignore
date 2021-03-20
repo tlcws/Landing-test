@@ -1,0 +1,7 @@
+.idea
+.DS_Store
+/www/vendor/
+/www/vendor/*/**
+/www/node_modules/
+/www/node_modules/*/**
+/www/mix-manifest.json

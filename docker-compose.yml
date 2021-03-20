@@ -1,0 +1,28 @@
+version: "3"
+services:
+
+  server:
+    build: ./.docker
+    volumes:
+      - ./www:/var/www/html/
+    ports:
+      - 80:80
+
+  node:
+    image: node
+    volumes:
+        - ./www:/var/www/
+    working_dir: /var/www/
+    ports:
+        - 3000:3000 
+        - 3001:3001
+    command: > 
+        bash -c "npm i && npm run watch"
+
+  mailhog:
+    image: mailhog/mailhog
+    ports:
+      - 8025:8025
+
+volumes:
+    persistent:

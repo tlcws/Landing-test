@@ -1,0 +1,21 @@
+.site-wrap {
+    width: 100%;
+    max-width: $wrap-full;
+    margin: 0 auto;
+
+    &__contents {
+        width: 100%;
+        height: 100%;
+        max-width: $wrap-site;
+        margin: 0 auto; 
+    }
+}
+
+a {
+    text-decoration: none;
+    transition: 0.5s;
+    &:hover {
+        text-decoration: none; 
+        transition: 0.5s;
+    }
+}

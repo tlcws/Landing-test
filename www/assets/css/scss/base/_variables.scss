@@ -1,0 +1,34 @@
+/* Color Theme Swatches in Hex */
+$color-1-hex: #FFFFFF;
+$color-2-hex: #4BC579;
+$color-3-hex: #368453;
+$color-4-hex: #E14343;
+$color-5-hex: #444444;
+$color-6-hex: #838383;
+$color-7-hex: #8F8F8F;
+$color-8-hex: #E7F4EC;
+
+/* Color Theme Swatches in RGBA */
+$color-1-rgba: rgba(255,255,255, 1);
+$color-2-rgba: rgba(75,197,121, 1);
+$color-3-rgba: rgba(54,132,83, 1);
+$color-4-rgba: rgba(225,67,67, 1);
+$color-5-rgba: rgba(68,68,68, 1);
+$color-6-rgba: rgba(143,143,143, 1);
+$color-7-rgba: rgba(231,244,236, 1);
+
+/* Wrap */
+$wrap-full: 2560px;
+$wrap-site: 1920px;
+
+/* Media */
+$media-mobile-min:  320px;
+$media-mobile-max:  480px;
+$media-tablet-min:  481px;
+$media-tablet-max:  768px;
+$media-laptop-min:  769px;
+$media-laptop-max:  1024px;
+$media-desktop-min: 1025px;
+$media-desktop-max: 1200px;
+$media-extrascreen-min: 1201px;
+$media-extrascreen-max: 1920px;
